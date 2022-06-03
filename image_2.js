@@ -10,10 +10,8 @@ const default_options = {
     label: "Background Image URL",
     display: "select",
     values: [
-      {"PUBG": "https://user-images.githubusercontent.com/688415/52364982-acff4a80-2a46-11e9-9bda-2de135bb4872.png"},
-      {"Darts": "http://freepngimages.com/wp-content/uploads/2017/01/winmau-dartboard.png"}
+      {"PUBG": "https://user-images.githubusercontent.com/688415/52364982-acff4a80-2a46-11e9-9bda-2de135bb4872.png"}
     ],
-    default: "https://i.ebayimg.com/images/i/221428428152-0-1/s-l1000.jpg",
   },
   
   // Scale and Padding
@@ -109,7 +107,7 @@ const vis = {
         var csslink  = document.createElement('link');
         csslink.rel  = 'stylesheet';
         csslink.type = 'text/css';
-        csslink.href = 'https://raw.githack.com/ContrastingSounds/Looker-Custom-Vis/leaflet_images_dev/leaflet_images/leaflet_image_overlay.css';
+        csslink.href = 'https://rawcdn.githack.com/kate-fray-looker/custom-image-map/tree/main';
         csslink.crossorigin = "";
         document.head.appendChild(csslink);
 
