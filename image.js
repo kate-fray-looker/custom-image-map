@@ -115,7 +115,7 @@ const vis = {
         var csslink  = document.createElement('link');
         csslink.rel  = 'stylesheet';
         csslink.type = 'text/css';
-        csslink.href = 'https://raw.githack.com/ContrastingSounds/Looker-Custom-Vis/leaflet_images_dev/leaflet_images/leaflet_image_overlay.css';
+//         csslink.href = 'https://raw.githack.com/ContrastingSounds/Looker-Custom-Vis/leaflet_images_dev/leaflet_images/leaflet_image_overlay.css';
         csslink.crossorigin = "";
         document.head.appendChild(csslink);
 
